@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" ddlActionDbType="mysql">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="908df1b2-ee83-4a29-832b-aa5a66d6c468" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/murach/business" />
+    <reUseDbSnapshotConnections>
+      <dbConnection id="908df1b2-ee83-4a29-832b-aa5a66d6c468" />
+    </reUseDbSnapshotConnections>
+    <option name="newEntityIdType" value="Long" />
+    <option name="newEntityIdStrategy" />
+  </component>
+</project>

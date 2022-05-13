@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CH21Email:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CH21Email</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Ch13JPA-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CH21Email:war exploded" />
+    </root>
+  </artifact>
+</component>
