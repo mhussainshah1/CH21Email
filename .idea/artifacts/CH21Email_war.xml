@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Ch13JPA-1.0-SNAPSHOT.war">
+    <root id="archive" name="Ch21Email-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="CH21Email:war exploded" />
     </root>
   </artifact>
