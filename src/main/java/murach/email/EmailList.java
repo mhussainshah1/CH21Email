@@ -2,6 +2,8 @@ package murach.email;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.RequestScoped;
+import jakarta.faces.application.FacesMessage;
+import jakarta.faces.context.FacesContext;
 import jakarta.inject.Named;
 import murach.business.User;
 import murach.data.UserDB;
@@ -27,6 +29,7 @@ public class EmailList {
         if (UserDB.emailExists(user.getEmail())) {
             message = "This email address already exists. " +
                     "Please enter another email address";
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, "Error", message));
             return "index";
         } else {
             UserDB.insert(user);
